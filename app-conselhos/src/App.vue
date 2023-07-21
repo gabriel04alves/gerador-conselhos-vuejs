@@ -1,17 +1,14 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
 import HeaderDefault from './components/HeaderDefault.vue';
 </script>
 <template>
   <link href="assets/my-style.css" rel="stylesheet">
   <HeaderDefault/>
-  <RouterLink to="/">Home</RouterLink>
-  <RouterLink to="/about">About</RouterLink>
+
   <RouterView />
 </template>
 
 <style scoped>
-
 header {
   line-height: 1.5;
   max-height: 100vh;
