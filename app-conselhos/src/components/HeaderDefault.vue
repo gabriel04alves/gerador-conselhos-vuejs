@@ -47,6 +47,8 @@ export default {
     flex-direction: row;
     font-family: 'Raleway', 'Times New Roman', Times, serif;
     padding: 20px;
+    border-bottom: 0.25em solid;
+    border-image: linear-gradient(60deg, #8a2be2, #52b0cf) 1 1;
 }
 
 .title, .subtitle {
