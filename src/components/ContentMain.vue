@@ -64,7 +64,6 @@
 
 <script>
 import axios from 'axios';
-    // Função para fazer a requisição usando Axios
     function obterConselhoAleatorio() {
       axios.get('https://api.adviceslip.com/advice')
         .then(function (response) {
