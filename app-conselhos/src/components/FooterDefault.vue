@@ -22,13 +22,13 @@ export default {
     <div class="footer" >
         <p class="text-footer">
             <svg-icon type="mdi" :path="path"></svg-icon> 
-            <a class="text-footer" href="https://linkedin.com/in/gabriel04alves">
+            <a class="text-footer" href="https://github.com/gabriel04alves">
                 /gabriel04alves
             </a>
         </p>
         <p class="text-footer">
             <svg-icon type="mdi" :path="pathb"></svg-icon>
-            <a class="text-footer" href="https://github.com/gabriel04alves">
+            <a class="text-footer" href="https://linkedin.com/in/gabriel04alves">
                 /gabriel04alves
             </a>
         </p>

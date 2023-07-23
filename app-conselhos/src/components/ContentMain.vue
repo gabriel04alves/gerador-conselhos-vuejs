@@ -1,8 +1,9 @@
 <template>
     <div class="main">
         <div class="conselho">
-            <p>Conselho</p>
+            <p id="resultado"></p>
         </div>
+        <button id="btnGerarConselho">Nova Frase</button>
     </div>
 </template>
 
@@ -28,3 +29,24 @@
     -moz-box-shadow: 5px 10px 25px 0px rgba(0,0,0,0.75);
 }
 </style>
+
+<script>
+import axios from 'axios';
+    // Função para fazer a requisição usando Axios
+    function obterConselhoAleatorio() {
+      axios.get('https://api.adviceslip.com/advice')
+        .then(function (response) {
+          const conselho = response.data.slip.advice;
+          console.log(conselho);
+          const divResultado = document.getElementById("resultado");
+          divResultado.innerText = conselho;
+        })
+        .catch(function (error) {
+          console.error(error);
+        });
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        const btnGerarConselho = document.getElementById("btnGerarConselho");
+        btnGerarConselho.addEventListener("click", obterConselhoAleatorio);
+    });
+</script>
