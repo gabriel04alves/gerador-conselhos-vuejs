@@ -1,3 +1,18 @@
+<template>
+    <footer class="footer" >
+        <div class="footer-container">
+            <a href="https://github.com/gabriel04alves" class="item-footer">
+                <svg-icon type="mdi" :path="path"></svg-icon> 
+                /gabriel04alves
+            </a>
+            <a href="https://linkedin.com/in/gabriel04alves" class="item-footer">
+                <svg-icon type="mdi" :path="pathb"></svg-icon>
+                /gabriel04alves
+            </a>
+        </div>
+    </footer>
+</template>
+
 <script>
 import SvgIcon from '@jamescoyle/vue-icon'
 import { mdiGithub } from '@mdi/js'
@@ -18,48 +33,34 @@ export default {
 }
 </script>
 
-<template>
-    <div class="footer" >
-        <p class="text-footer">
-            <svg-icon type="mdi" :path="path"></svg-icon> 
-            <a class="text-footer" href="https://github.com/gabriel04alves">
-                /gabriel04alves
-            </a>
-        </p>
-        <p class="text-footer">
-            <svg-icon type="mdi" :path="pathb"></svg-icon>
-            <a class="text-footer" href="https://linkedin.com/in/gabriel04alves">
-                /gabriel04alves
-            </a>
-        </p>
-    </div>
-</template>
-
 <style>
-.footer {
+footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    gap: 1%;
-    border-top: 0.25em solid;
-    border-image: linear-gradient(60deg, #52b0cf, #8a2be2) 1 1;
-    color: #F4F4F4; 
-    background-color: #002F40;
-    padding: 1%;
 }
 
-.text-footer {
-    font-family:'Raleway', 'Times New Roman', Times, serif;;
-    text-decoration: none;
-    color: #f4f4f4;
-    font-weight: 300;
-    margin-top: 2px;
+.footer-container {
     display: flex;
     justify-content: center;
-    gap: 2.5px;
-    font-size: 1.7vh;
+    position: fixed;
+    bottom: 0;
+    
+    border-radius: 20px;
+    padding: 1rem 5rem;
+    margin: 1rem;
+    gap: 2vw;
+    
+    background-color: #002F40;
+}
+
+.item-footer {
+    font-family:'Raleway', 'Times New Roman', Times, serif;;
+    text-decoration: none;
+    font-weight: 300;
+    color: #f4f4f4;
+
+    display: flex;
+    align-items: center;
 }
 </style>
