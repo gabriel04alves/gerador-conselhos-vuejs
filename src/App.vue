@@ -5,7 +5,7 @@ import HeaderDefault from './components/HeaderDefault.vue';
 <template>
   <link href="assets/my-style.css" rel="stylesheet">
   <HeaderDefault/>
-  <RouterView class="main" />
+  <RouterView class="router-view" />
   <FooterDefault/>
 </template>
 
