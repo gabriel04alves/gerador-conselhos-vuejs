@@ -37,8 +37,7 @@ export default {
 
 .all {
     background-color: #002F40;
-    height: 100px;
-    width: 100%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -38,15 +38,15 @@ export default {
 <style>
 .footer {
     display: flex;
-    justify-content: end;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: fixed;
+    bottom: 0;
+    width: 100%;
     gap: 1%;
     border-top: 0.25em solid;
     border-image: linear-gradient(60deg, #52b0cf, #8a2be2) 1 1;
     color: #F4F4F4; 
-    height: 100%;
-    width: 100%; 
     background-color: #002F40;
     padding: 1%;
 }

@@ -10,7 +10,4 @@ import HeaderDefault from './components/HeaderDefault.vue';
 </template>
 
 <style scoped>
-.main {
-  height: 50rem;
-}
 </style>

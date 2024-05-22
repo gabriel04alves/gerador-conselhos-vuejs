@@ -1,4 +1,5 @@
 import './assets/css/global.css'
+import './assets/css/reset.css'
 import 'vue-material-design-icons/styles.css'
 
 import { createApp } from 'vue'
