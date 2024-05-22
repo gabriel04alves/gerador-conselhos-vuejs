@@ -1,9 +1,9 @@
-# App-Conselhos
-#### O Gerador de Conselhos é uma aplicação web desenvolvida com a biblioteca Vue.js. O objetivo desse pequeno projeto é praticar e aprimorar conhecimentos em Vue.js e consumo de API.  A aplicação oferece a funcionalidade de gerar conselhos aleatórios em diversas áreas da vida. Para fornecer os conselhos, o projeto se conecta a uma API externa.
+## App-Conselhos
+##### O Gerador de Conselhos é uma aplicação web desenvolvida com a biblioteca Vue.js. O objetivo desse pequeno projeto é praticar e aprimorar conhecimentos em Vue.js e consumo de API.  A aplicação oferece a funcionalidade de gerar conselhos aleatórios em diversas áreas da vida. Para fornecer os conselhos, o projeto se conecta a uma API externa.
 
-#### Deploy: http://gerador-frases.surge.sh/
+##### Deploy: http://advice-generator-vuejs.surge.sh/
 
-#### | Obs: Os conselhos podem demorar alguns instantes para serem exibidos.
+##### | Obs: Os conselhos podem demorar alguns instantes para serem exibidos.
 
 #
 # Settings:
